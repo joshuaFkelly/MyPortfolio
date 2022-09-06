@@ -1,351 +1,308 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./CSS/style.css" />
-    <script src="./JavaScript/main.js" defer></script>
-    <title>Home</title>
-  </head>
-  <body>
-    <header id="header">
-      <h1 id="headerTitle">Joshua Kelly</h1>
-      <nav id="navbar">
-        <ul id="linkList">
-          <li id="github">
-            <a
-              class="link"
-              id="githubLink"
-              target="_blank"
-              href="https://github.com/joshuaFkelly"
-              >GitHub</a
-            >
-          </li>
 
-          <li id="linkedin">
-            <a class="link" id="linkedinLink" target="_blank" href="#"
-              >LinkedIn</a
-            >
-          </li>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./CSS/style.css" />
+  <script src="./JavaScript/main.js" defer></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <title>Home</title>
+</head>
 
-          <li id="email">
-            <a class="link" id="emailLink" target="_blank" href="#">Email</a>
-          </li>
+<body>
+  <header id="header">
+    <h1 id="headerTitle">Joshua Kelly</h1>
+    <nav id="navbar">
+      <ul id="linkList">
+        <li id="github">
+          <a class="link" id="githubLink" target="_blank" href="https://github.com/joshuaFkelly">GitHub</a>
+        </li>
+
+        <li id="linkedin">
+          <a class="link" id="linkedinLink" target="_blank" href="#">LinkedIn</a>
+        </li>
+
+        <li id="email">
+          <a class="link" id="emailLink" target="_blank" href="#">Email</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="projects">
+    <!-- First Project -->
+    <div class="project oddProject">
+      <div class="text">
+        <h2 class="projectName">Mario Trivia</h2>
+        <div>
+          <h3>Description</h3>
+          <p>
+            Mario Trivia is a webapp that allows a user to play a 5 question
+            trivia game on the subject of Mario. I utilized Asyncronus
+            JavaScript to keep track of time by decrementing a number inside
+            an object. Score is checked when a user clicks finish. If the
+            value of selected option is equal to correct value, then
+            correctScore is incremented. If it is not equal, then the
+            incorrect score is incremented. At the end of the game all values
+            are set back to original.
+          </p>
+        </div>
+
+        <div>
+          <h3>Technologies</h3>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Challenges</h3>
+          <p>
+            Trying to follow the logic of the game in JavaScript vs real life
+            was mind bending. I was able to discover how to "think like a
+            coder" from this project.
+          </p>
+          </br>
+          <p>
+            Learning setInterval and setTimeout led me down a path of
+            discovering Asynchronus JavaScript. It was weird to understand and
+            harder to implement, but by the end of it I even understood how
+            the JS Call Stack works.
+          </p>
+          </br>
+          <p>
+            Keeping track of the score was interesting because I didn't really
+            understand how the number was going to be there throughout the
+            game. From this curiosity I learned more about memory and how
+            JavaScript runs in the browser.
+          </p>
+        </div>
+      </div>
+
+        <div class="imageContainer">
+          <img src="../Assets/ProjectOneScreenShot.jpg"
+            alt="Mario Trivia Game Screenshot" />
+          <div class="image">
+            <a href="https://github.com/joshuaFkelly/Trivia_Game_Basic_Remake">GitHub</a>
+            <a href="#">Website</a>
+          </div>
+      </div>
+    </div>
+
+    <!-- Second Project -->
+    <div class="project projectTwo">
+      <div class="imageContainer">
+          <img src="../Assets/Psychic_Game_Screenshot.png" alt="Psychic Game Screenshot" />
+          <div class="image">
+            <a href="https://github.com/joshuaFkelly/Pyschic_Game_Remake">GitHub</a>
+            <a href="#">Website</a>
+          </div>
+      </div>
+
+      <div class="text">
+        <h2 class="projectName">Mario Trivia</h2>
+        <div>
+          <h3>Description</h3>
+          <p>
+            Mario Trivia is a webapp that allows a user to play a 5 question
+            trivia game on the subject of Mario. I utilized Asyncronus
+            JavaScript to keep track of time by decrementing a number inside an
+            object. Score is checked when a user clicks finish. If the value of
+            selected option is equal to correct value, then correctScore is
+            incremented. If it is not equal, then the incorrect score is
+            incremented. At the end of the game all values are set back to
+            original.
+          </p>
+        </div>
+<div>
+
+        <h3>Technologies</h3>
+        <ul>
+          <li>HTML</li>
+          <li>Bootstrap CSS</li>
+          <li>JavaScript OOP</li>
         </ul>
-      </nav>
-    </header>
+</div>
 
-    <main id="projects">
-      <!-- First Project -->
-      <section class="projectSection">
-        <div class="project">
-          <div class="column">
-            <div class="container">
-              <img
-                class="projectImage"
-                src="../Assets/ProjectOneScreenShot.jpg"
-                alt=""
-              />
-              <div class="image">
-                <a
-                  class="projectLink"
-                  href="https://github.com/joshuaFkelly/Trivia_Game_Basic_Remake"
-                  >GitHub</a
-                >
-                <a class="projectLink" href="#">Website</a>
-              </div>
-            </div>
-          </div>
+      <div>
+        <h3>Challenges</h3>
+        <p>
+          Trying to follow the logic of the game
+          in JavaScript vs real life was mind bending. I was able to discover
+          how to "think like a coder" from this project.
+        </p>
+        </br>
+        <p>
+          Learning setInterval and setTimeout led
+          me down a path of discovering Asynchronus JavaScript. It was weird
+          to understand and harder to implement, but by the end of it I even
+          understood how the JS Call Stack works.
+        </p>
+        </br>
+        <p>
+          Keeping track of the score was
+          interesting because I didn't really understand how the number was
+          going to be there throughout the game. From this curiosity I learned
+          more about memory and how JavaScript runs in the browser.
+        </p>
+      </div>
+      </div>
+    </div>
 
-          <div class="column">
-            <h2 class="projectName">Mario Trivia</h2>
+    <!-- Third Project -->
+    <div class="project oddProject">
+      <div class="text">
+        <h2 class="projectName">Mario Trivia</h2>
 
-            <p>
-              Mario Trivia is a webapp that allows a user to play a 5 question
-              trivia game on the subject of Mario. I utilized Asyncronus
-              JavaScript to keep track of time by decrementing a number inside
-              an object. Score is checked when a user clicks finish. If the
-              value of selected option is equal to correct value, then
-              correctScore is incremented. If it is not equal, then the
-              incorrect score is incremented. At the end of the game all values
-              are set back to original.
-            </p>
+        <p>
+          Mario Trivia is a webapp that allows a user to play a 5 question
+          trivia game on the subject of Mario. I utilized Asyncronus
+          JavaScript to keep track of time by decrementing a number inside an
+          object. Score is checked when a user clicks finish. If the value of
+          selected option is equal to correct value, then correctScore is
+          incremented. If it is not equal, then the incorrect score is
+          incremented. At the end of the game all values are set back to
+          original.
+        </p>
 
-            <ul>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>JavaScript</li>
-            </ul>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+        </ul>
 
-            <p>
-              <span>Challenge 1 </span> - Trying to follow the logic of the game
-              in JavaScript vs real life was mind bending. I was able to
-              discover how to "think like a coder" from this project.
-            </p>
-            <p>
-              <span>Challenge 2 </span> - Learning setInterval and setTimeout
-              led me down a path of discovering Asynchronus JavaScript. It was
-              weird to understand and harder to implement, but by the end of it
-              I even understood how the JS Call Stack works.
-            </p>
-            <p>
-              <span>Challenge 3 </span> - Keeping track of the score was
-              interesting because I didn't really understand how the number was
-              going to be there throughout the game. From this curiosity I
-              learned more about memory and how JavaScript runs in the browser.
-            </p>
-          </div>
-        </div>
-      </section>
+        <p>
+          <span>Challenge 1 </span> - Trying to follow the logic of the game
+          in JavaScript vs real life was mind bending. I was able to discover
+          how to "think like a coder" from this project.
+        </p>
+        <p>
+          <span>Challenge 2 </span> - Learning setInterval and setTimeout led
+          me down a path of discovering Asynchronus JavaScript. It was weird
+          to understand and harder to implement, but by the end of it I even
+          understood how the JS Call Stack works.
+        </p>
+        <p>
+          <span>Challenge 3 </span> - Keeping track of the score was
+          interesting because I didn't really understand how the number was
+          going to be there throughout the game. From this curiosity I learned
+          more about memory and how JavaScript runs in the browser.
+        </p>
+      </div>
 
-      <!-- Second Project -->
-      <section class="projectSection">
-        <div class="project">
-          <div class="column">
-            <div class="container">
-              <img
-                class="projectImage"
-                src="../Assets/ProjectOneScreenShot.jpg"
-                alt=""
-              />
-              <div class="image">
-                <a
-                  class="projectLink"
-                  href="https://github.com/joshuaFkelly/Trivia_Game_Basic_Remake"
-                  >GitHub</a
-                >
-                <a class="projectLink" href="#">Website</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="column">
-            <h2 class="projectName">Mario Trivia</h2>
-
-            <p>
-              Mario Trivia is a webapp that allows a user to play a 5 question
-              trivia game on the subject of Mario. I utilized Asyncronus
-              JavaScript to keep track of time by decrementing a number inside
-              an object. Score is checked when a user clicks finish. If the
-              value of selected option is equal to correct value, then
-              correctScore is incremented. If it is not equal, then the
-              incorrect score is incremented. At the end of the game all values
-              are set back to original.
-            </p>
-
-            <ul>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>JavaScript</li>
-            </ul>
-
-            <p>
-              <span>Challenge 1 </span> - Trying to follow the logic of the game
-              in JavaScript vs real life was mind bending. I was able to
-              discover how to "think like a coder" from this project.
-            </p>
-            <p>
-              <span>Challenge 2 </span> - Learning setInterval and setTimeout
-              led me down a path of discovering Asynchronus JavaScript. It was
-              weird to understand and harder to implement, but by the end of it
-              I even understood how the JS Call Stack works.
-            </p>
-            <p>
-              <span>Challenge 3 </span> - Keeping track of the score was
-              interesting because I didn't really understand how the number was
-              going to be there throughout the game. From this curiosity I
-              learned more about memory and how JavaScript runs in the browser.
-            </p>
+        <div class="imageContainer">
+          <img class="projectImage" src="../Assets/ProjectOneScreenShot.jpg" alt="" />
+          <div class="image">
+            <a href="https://github.com/joshuaFkelly/Trivia_Game_Basic_Remake">GitHub</a>
+            <a href="#">Website</a>
           </div>
         </div>
-      </section>
+    </div>
 
-      <!-- Third Project -->
-      <section class="projectSection">
-        <div class="project">
-          <div class="column">
-            <div class="container">
-              <img
-                class="projectImage"
-                src="../Assets/ProjectOneScreenShot.jpg"
-                alt=""
-              />
-              <div class="image">
-                <a
-                  class="projectLink"
-                  href="https://github.com/joshuaFkelly/Trivia_Game_Basic_Remake"
-                  >GitHub</a
-                >
-                <a class="projectLink" href="#">Website</a>
-              </div>
-            </div>
+    <!-- Fourth Project -->
+    <div class="project ">
+        <div class="imageContainer">
+          <img class="projectImage" src="../Assets/ProjectOneScreenShot.jpg" alt="" />
+          <div class="image">
+            <a href="https://github.com/joshuaFkelly/Trivia_Game_Basic_Remake">GitHub</a>
+            <a href="#">Website</a>
           </div>
+      </div>
 
-          <div class="column">
-            <h2 class="projectName">Mario Trivia</h2>
+      <div class="text">
+        <h2 class="projectName">Mario Trivia</h2>
 
-            <p>
-              Mario Trivia is a webapp that allows a user to play a 5 question
-              trivia game on the subject of Mario. I utilized Asyncronus
-              JavaScript to keep track of time by decrementing a number inside
-              an object. Score is checked when a user clicks finish. If the
-              value of selected option is equal to correct value, then
-              correctScore is incremented. If it is not equal, then the
-              incorrect score is incremented. At the end of the game all values
-              are set back to original.
-            </p>
+        <p>
+          Mario Trivia is a webapp that allows a user to play a 5 question
+          trivia game on the subject of Mario. I utilized Asyncronus
+          JavaScript to keep track of time by decrementing a number inside an
+          object. Score is checked when a user clicks finish. If the value of
+          selected option is equal to correct value, then correctScore is
+          incremented. If it is not equal, then the incorrect score is
+          incremented. At the end of the game all values are set back to
+          original.
+        </p>
 
-            <ul>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>JavaScript</li>
-            </ul>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+        </ul>
 
-            <p>
-              <span>Challenge 1 </span> - Trying to follow the logic of the game
-              in JavaScript vs real life was mind bending. I was able to
-              discover how to "think like a coder" from this project.
-            </p>
-            <p>
-              <span>Challenge 2 </span> - Learning setInterval and setTimeout
-              led me down a path of discovering Asynchronus JavaScript. It was
-              weird to understand and harder to implement, but by the end of it
-              I even understood how the JS Call Stack works.
-            </p>
-            <p>
-              <span>Challenge 3 </span> - Keeping track of the score was
-              interesting because I didn't really understand how the number was
-              going to be there throughout the game. From this curiosity I
-              learned more about memory and how JavaScript runs in the browser.
-            </p>
-          </div>
-        </div>
-      </section>
+        <p>
+          <span>Challenge 1 </span> - Trying to follow the logic of the game
+          in JavaScript vs real life was mind bending. I was able to discover
+          how to "think like a coder" from this project.
+        </p>
+        <p>
+          <span>Challenge 2 </span> - Learning setInterval and setTimeout led
+          me down a path of discovering Asynchronus JavaScript. It was weird
+          to understand and harder to implement, but by the end of it I even
+          understood how the JS Call Stack works.
+        </p>
+        <p>
+          <span>Challenge 3 </span> - Keeping track of the score was
+          interesting because I didn't really understand how the number was
+          going to be there throughout the game. From this curiosity I learned
+          more about memory and how JavaScript runs in the browser.
+        </p>
+      </div>
+    </div>
 
-      <!-- Fourth Project -->
-      <section class="projectSection">
-        <div class="project">
-          <div class="column">
-            <div class="container">
-              <img
-                class="projectImage"
-                src="../Assets/ProjectOneScreenShot.jpg"
-                alt=""
-              />
-              <div class="image">
-                <a
-                  class="projectLink"
-                  href="https://github.com/joshuaFkelly/Trivia_Game_Basic_Remake"
-                  >GitHub</a
-                >
-                <a class="projectLink" href="#">Website</a>
-              </div>
-            </div>
-          </div>
+    <!-- Fifth Project -->
+    <div class="project oddProject">
+      <div class="text">
+        <h2 class="projectName">Mario Trivia</h2>
 
-          <div class="column">
-            <h2 class="projectName">Mario Trivia</h2>
+        <p>
+          Mario Trivia is a webapp that allows a user to play a 5 question
+          trivia game on the subject of Mario. I utilized Asyncronus
+          JavaScript to keep track of time by decrementing a number inside an
+          object. Score is checked when a user clicks finish. If the value of
+          selected option is equal to correct value, then correctScore is
+          incremented. If it is not equal, then the incorrect score is
+          incremented. At the end of the game all values are set back to
+          original.
+        </p>
 
-            <p>
-              Mario Trivia is a webapp that allows a user to play a 5 question
-              trivia game on the subject of Mario. I utilized Asyncronus
-              JavaScript to keep track of time by decrementing a number inside
-              an object. Score is checked when a user clicks finish. If the
-              value of selected option is equal to correct value, then
-              correctScore is incremented. If it is not equal, then the
-              incorrect score is incremented. At the end of the game all values
-              are set back to original.
-            </p>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+        </ul>
 
-            <ul>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>JavaScript</li>
-            </ul>
+        <p>
+          <span>Challenge 1 </span> - Trying to follow the logic of the game
+          in JavaScript vs real life was mind bending. I was able to discover
+          how to "think like a coder" from this project.
+        </p>
+        <p>
+          <span>Challenge 2 </span> - Learning setInterval and setTimeout led
+          me down a path of discovering Asynchronus JavaScript. It was weird
+          to understand and harder to implement, but by the end of it I even
+          understood how the JS Call Stack works.
+        </p>
+        <p>
+          <span>Challenge 3 </span> - Keeping track of the score was
+          interesting because I didn't really understand how the number was
+          going to be there throughout the game. From this curiosity I learned
+          more about memory and how JavaScript runs in the browser.
+        </p>
+      </div>
 
-            <p>
-              <span>Challenge 1 </span> - Trying to follow the logic of the game
-              in JavaScript vs real life was mind bending. I was able to
-              discover how to "think like a coder" from this project.
-            </p>
-            <p>
-              <span>Challenge 2 </span> - Learning setInterval and setTimeout
-              led me down a path of discovering Asynchronus JavaScript. It was
-              weird to understand and harder to implement, but by the end of it
-              I even understood how the JS Call Stack works.
-            </p>
-            <p>
-              <span>Challenge 3 </span> - Keeping track of the score was
-              interesting because I didn't really understand how the number was
-              going to be there throughout the game. From this curiosity I
-              learned more about memory and how JavaScript runs in the browser.
-            </p>
+        <div class="imageContainer">
+          <img class="projectImage" src="../Assets/ProjectOneScreenShot.jpg" alt="" />
+          <div class="image">
+            <a href="https://github.com/joshuaFkelly/Trivia_Game_Basic_Remake">GitHub</a>
+            <a href="#">Website</a>
           </div>
         </div>
-      </section>
+    </div>
+  </main>
+</body>
 
-      <!-- Fifth Project -->
-      <section class="projectSection">
-        <div class="project">
-          <div class="column">
-            <div class="container">
-              <img
-                class="projectImage"
-                src="../Assets/ProjectOneScreenShot.jpg"
-                alt=""
-              />
-              <div class="image">
-                <a
-                  class="projectLink"
-                  href="https://github.com/joshuaFkelly/Trivia_Game_Basic_Remake"
-                  >GitHub</a
-                >
-                <a class="projectLink" href="#">Website</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="column">
-            <h2 class="projectName">Mario Trivia</h2>
-
-            <p>
-              Mario Trivia is a webapp that allows a user to play a 5 question
-              trivia game on the subject of Mario. I utilized Asyncronus
-              JavaScript to keep track of time by decrementing a number inside
-              an object. Score is checked when a user clicks finish. If the
-              value of selected option is equal to correct value, then
-              correctScore is incremented. If it is not equal, then the
-              incorrect score is incremented. At the end of the game all values
-              are set back to original.
-            </p>
-
-            <ul>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>JavaScript</li>
-            </ul>
-
-            <p>
-              <span>Challenge 1 </span> - Trying to follow the logic of the game
-              in JavaScript vs real life was mind bending. I was able to
-              discover how to "think like a coder" from this project.
-            </p>
-            <p>
-              <span>Challenge 2 </span> - Learning setInterval and setTimeout
-              led me down a path of discovering Asynchronus JavaScript. It was
-              weird to understand and harder to implement, but by the end of it
-              I even understood how the JS Call Stack works.
-            </p>
-            <p>
-              <span>Challenge 3 </span> - Keeping track of the score was
-              interesting because I didn't really understand how the number was
-              going to be there throughout the game. From this curiosity I
-              learned more about memory and how JavaScript runs in the browser.
-            </p>
-          </div>
-        </div>
-      </section>
-    </main>
-  </body>
 </html>
