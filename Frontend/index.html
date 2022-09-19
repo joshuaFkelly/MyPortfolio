@@ -13,48 +13,115 @@
 </head>
 
 <body>
-  
+<!-- Header -->
   <header id="header">
-
-    <nav id="navbar">
-      <ul id="navlinks">
-        <li>
-          <a class="navLink" href="#">Home</a>
-        </li>
-        <li>
-          <a class="navLink" href="#">Projects</a>
-        </li>
-        <li>
-          <a class="navLink" href="#">Contact</a>
-        </li>
-      </ul>
-    </nav>
-
-    <div class="pageTitle">
+    <div>
       <h1>Joshua Kelly</h1>
-      <ul id="linkList">
-        <li id="github">
-          <a class="link" id="githubLink" target="_blank" href="https://github.com/joshuaFkelly">
-            <i class="fa-brands fa-github fa-2xl"></i>
-          </a>
-        </li>
-
-        <li id="linkedin">
-          <a class="link" id="linkedinLink" target="_blank" href="#">
-            <i class="fa-brands fa-linkedin fa-2xl"></i>
-          </a>
-        </li>
-
-        <li id="email">
-          <a class="link" id="emailLink" target="_blank" href="#">
-            <i class="fa-solid fa-envelope fa-2xl"></i>
-          </a>
-        </li>
-      </ul>
+      <h2>Full Stack Web Developer</h2>
+      <nav id="navbar">
+        <ul id="navlinks">
+          <li class="navLink">
+            <a class="link" id="homeBtn" >Home</a>
+          </li>
+          <li class="navLink">
+            <a class="link" id="skillsBtn">Skills</a>
+          </li>
+          <li class="navLink">
+            <a class="link" id="projectsBtn" >Projects</a>
+          </li>
+          <li class="navLink">
+            <a class="link" id="contactBtn">Contact</a>
+          </li>
+        </ul>
+      </nav>
     </div>
   </header>
 
-  <main id="projects">
+  <!-- Skills -->
+  <section id="skillsSection">
+    <div>
+      <h2>Front End</h2>
+      <ul class="skills">
+        <li>
+          <img class="skill" src="../Assets/html5.svg.png" alt="one of my developer languages">
+        </li>
+
+        <li>
+          <img class="skill" src="../Assets/JavaScript-Logo.png" alt="one of my developer languages">
+        </li>
+
+        <li>
+          <img class="skill" src="../Assets/CSS3.svg.png" alt="one of my developer languages">
+        </li>
+        <li>
+          <img class="skill" src="../Assets/reactjs.png" alt="one of my developer languages">
+        </li>
+
+        <li>
+          <img class="skill" src="../Assets/tailwindcss.png" alt="one of my developer languages">
+        </li>
+
+        <li>
+          <img class="skill" src="../Assets/bootstraplogo.png" alt="one of my developer languages">
+        </li>
+      </ul>
+    </div>
+
+    <div>
+      <h2>Back End</h2>
+      <ul  class="skills">
+        <li>
+          <img class="skill" src="../Assets/nodejs.png" alt="one of my developer languages">
+        </li>
+        <li>
+          <img class="skill" src="../Assets/rest-api-icon.webp" alt="one of my developer languages">
+        </li>
+
+        <li>
+          <img class="skill" src="../Assets/MongoDB_Atlas.webp" alt="one of my developer languages">
+        </li>
+        <li>
+          <img class="skill" src="../Assets/NodeExpress.png" alt="one of my developer languages">
+        </li>
+      </ul>
+    </div>
+
+    <div>
+      <h2>Tools</h2>
+      <ul  class="skills">
+        <li>
+          <img class="skill" src="../Assets/Git.png" alt="one of my developer languages">
+        </li>
+        <li>
+          <img class="skill" src="../Assets/Canva.png" alt="one of my developer languages">
+        </li>
+        <li>
+          <img class="skill" src="../Assets/Postman.png" alt="one of my developer languages">
+        </li>
+      </ul>
+    </div>
+
+    <div>
+      <h2>Other</h2>
+      <ul  class="skills">
+        <li>
+          <img class="skill" src="../Assets/Elementor.webp" alt="one of my developer languages">
+        </li>
+        <li>
+          <img class="skill" src="../Assets/WordPress.png" alt="one of my developer languages">
+        </li>
+
+        <li>
+          <img class="skill" src="../Assets/SEO.png" alt="one of my developer languages">
+        </li>
+      </ul>
+    </div>
+
+  </section>
+
+  <!-- Projects -->
+  <main id="projectSection">
+    <h2>Projects</h2>
     <!-- First Project -->
     <div id="projectOne" class="project oddProject ">
       <div class="text">
@@ -106,32 +173,31 @@
         </div>
       </div>
 
-        <div class="imageContainer">
-          <img src="../Assets/ProjectOneScreenShot.jpg"
-            alt="Mario Trivia Game Screenshot" />
-          <div class="image">
-            <a href="https://github.com/joshuaFkelly/Trivia_Game_Basic_Remake">
-              <i class="fa-brands fa-github"></i>
-            </a>
-            <a href="#">
-              <i class="fa-solid fa-globe"></i>
-            </a>
-          </div>
+      <div class="imageContainer">
+        <img class="projectImage" src="../Assets/ProjectOneScreenShot.jpg" alt="Mario Trivia Game Screenshot" />
+        <div class="image">
+          <a href="https://github.com/joshuaFkelly/Trivia_Game_Basic_Remake">
+            <i class="fa-brands fa-github fa-xl"></i>
+          </a>
+          <a href="#">
+            <i class="fa-solid fa-globe fa-xl"></i>
+          </a>
+        </div>
       </div>
     </div>
 
     <!-- Second Project -->
     <div id="projectTwo" class="project ">
       <div class="imageContainer">
-          <img src="../Assets/Psychic_Game_Screenshot.png" alt="Psychic Game Screenshot" />
-          <div class="image">
-            <a href="https://github.com/joshuaFkelly/Pyschic_Game_Remake">
-              <i class="fa-brands fa-github fa-2xl"></i>
-            </a>
-            <a href="#">
-              <i class="fa-regular fa-globe"></i>
-            </a>
-          </div>
+        <img class="projectImage" src="../Assets/Psychic_Game_Screenshot.png" alt="Psychic Game Screenshot" />
+        <div class="image">
+          <a href="https://github.com/joshuaFkelly/Pyschic_Game_Remake">
+            <i class="fa-brands fa-github fa-xl"></i>
+          </a>
+          <a href="#">
+            <i class="fa-solid fa-globe fa-xl"></i>
+          </a>
+        </div>
       </div>
 
       <div class="text">
@@ -139,41 +205,46 @@
         <div>
           <h3>Description</h3>
           <p>
-            Psychic Game is a JS based web app. Users click the start button, then begin guessing the hidden word 
-            by typing with their keyboard. Each key stroke is displayed until the correct letter is guessed or until 
-            10 guesses have been made. If a user reachs 10 guesses then the losses score is incremented. If a user 
-            correctly guesses the letter, then the wins score is incremented. In both scenarios guesses remaining, guesses
-            made, and the letter to be guesses is reset. A user may quit the game by clicking the "quit" button. The quit button
-            removes the onkeyup event listener and clears all stats. 
+            Psychic Game is a JS based web app. Users click the start button, then begin guessing the hidden word
+            by typing with their keyboard. Each key stroke is displayed until the correct letter is guessed or until
+            10 guesses have been made. If a user reachs 10 guesses then the losses score is incremented. If a user
+            correctly guesses the letter, then the wins score is incremented. In both scenarios guesses remaining,
+            guesses
+            made, and the letter to be guesses is reset. A user may quit the game by clicking the "quit" button. The
+            quit button
+            removes the onkeyup event listener and clears all stats.
           </p>
         </div>
-<div>
+        <div>
 
-        <h3>Technologies</h3>
-        <ul>
-          <li>HTML</li>
-          <li>Bootstrap CSS</li>
-          <li>JavaScript OOP</li>
-        </ul>
-</div>
+          <h3>Technologies</h3>
+          <ul>
+            <li>HTML</li>
+            <li>Bootstrap CSS</li>
+            <li>JavaScript OOP</li>
+          </ul>
+        </div>
 
-      <div>
-        <h3>Challenges</h3>
-        <p>
-          Learning OOP was the biggest struggle in this project. I'm lucky it was a small project otherwise I think this would've taken a long time.
-          I was able to understand the major differences in Functional code vs Object Oriented code.
-        </p>
-        </br>
-        <p>
-          Styling with Bootstrap made me try to come up with a more complex/ fancier UI. 
-          Learning the syntax was frustrating but once I became familiar I really enjoyed the power behind a CSS library.
-        </p>
-        </br>
-        <p>
-          The game was so small I took a long time to create different features and make the app more fun to 
-          interact with. Being creative and going outside my comfort zone is easily the most adventurous part of coding. 
-        </p>
-      </div>
+        <div>
+          <h3>Challenges</h3>
+          <p>
+            Learning OOP was the biggest struggle in this project. I'm lucky it was a small project otherwise I think
+            this would've taken a long time.
+            I was able to understand the major differences in Functional code vs Object Oriented code.
+          </p>
+          </br>
+          <p>
+            Styling with Bootstrap made me try to come up with a more complex/ fancier UI.
+            Learning the syntax was frustrating but once I became familiar I really enjoyed the power behind a CSS
+            library.
+          </p>
+          </br>
+          <p>
+            The game was so small I took a long time to create different features and make the app more fun to
+            interact with. Being creative and going outside my comfort zone is easily the most adventurous part of
+            coding.
+          </p>
+        </div>
       </div>
     </div>
 
@@ -218,31 +289,32 @@
         </p>
       </div>
 
-        <div class="imageContainer">
-          <img class="projectImage" src="../Assets/independentMMAFitnessWebsite.png" alt="Screenshot of website for Independent MMA & Fitness Newnan, GA" />
-          <div class="image">
-            <a href="https://github.com/joshuaFkelly/newnan-website">
-              <i class="fa-brands fa-github fa-2xl"></i>
-            </a>
-            <a href="https://independentmmafitness.herokuapp.com/">
-              <i class="fa-regular fa-globe"></i>
-            </a>
-          </div>
+      <div class="imageContainer">
+        <img class="projectImage" src="../Assets/independentMMAFitnessWebsite.png"
+          alt="Screenshot of website for Independent MMA & Fitness Newnan, GA" />
+        <div class="image">
+          <a href="https://github.com/joshuaFkelly/newnan-website">
+            <i class="fa-brands fa-github fa-2xl"></i>
+          </a>
+          <a href="https://independentmmafitness.herokuapp.com/">
+            <i class="fa-regular fa-globe"></i>
+          </a>
         </div>
+      </div>
     </div>
 
     <!-- Fourth Project -->
     <div id="projectFour" class="project">
-        <div class="imageContainer">
-          <img class="projectImage" src="../Assets/ProjectOneScreenShot.jpg" alt="" />
-          <div class="image">
-            <a href="https://github.com/joshuaFkelly/Trivia_Game_Basic_Remake">
-              <i class="fa-brands fa-github fa-2xl"></i>
-            </a>
-            <a href="#">
-              <i class="fa-regular fa-globe"></i>
-            </a>
-          </div>
+      <div class="imageContainer">
+        <img class="projectImage" src="../Assets/ProjectOneScreenShot.jpg" alt="" />
+        <div class="image">
+          <a href="https://github.com/joshuaFkelly/Trivia_Game_Basic_Remake">
+            <i class="fa-brands fa-github fa-2xl"></i>
+          </a>
+          <a href="#">
+            <i class="fa-regular fa-globe"></i>
+          </a>
+        </div>
       </div>
 
       <div class="text">
@@ -326,49 +398,57 @@
         </p>
       </div>
 
-        <div class="imageContainer">
-          <img class="projectImage" src="../Assets/ProjectOneScreenShot.jpg" alt="" />
-          <div class="image">
-            <a href="https://github.com/joshuaFkelly/Trivia_Game_Basic_Remake">
-              <i class="fa-brands fa-github fa-2xl"></i>
-            </a>
-            <a href="#">
-              <i class="fa-regular fa-globe"></i>
-            </a>
-          </div>
+      <div class="imageContainer">
+        <img class="projectImage" src="../Assets/ProjectOneScreenShot.jpg" alt="" />
+        <div class="image">
+          <a href="https://github.com/joshuaFkelly/Trivia_Game_Basic_Remake">
+            <i class="fa-brands fa-github fa-2xl"></i>
+          </a>
+          <a href="#">
+            <i class="fa-regular fa-globe"></i>
+          </a>
         </div>
+      </div>
     </div>
   </main>
+
   <!-- Contact Form -->
-  <section>
+  <section id="contactSection">
     <h1>Contact Me</h1>
-<div class="wpcf7" id="wpcf7-f156-p143-o1 formwrap">
-    <form action="/?page_id=143#wpcf7-f156-p143-o1" method="post" class="wpcf7-form" novalidate="novalidate">
+    <div class="wpcf7" id="wpcf7-f156-p143-o1 formwrap">
+      <form action="/?page_id=143#wpcf7-f156-p143-o1" method="post" class="wpcf7-form" novalidate="novalidate">
         <div style="display: none;">
-            <input type="hidden" name="_wpcf7" value="156">
-            <input type="hidden" name="_wpcf7_version" value="3.7.2">
-            <input type="hidden" name="_wpcf7_locale" value="en_US">
-            <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f156-p143-o1">
-            <input type="hidden" name="_wpnonce" value="d1da331d93">
+          <input type="hidden" name="_wpcf7" value="156">
+          <input type="hidden" name="_wpcf7_version" value="3.7.2">
+          <input type="hidden" name="_wpcf7_locale" value="en_US">
+          <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f156-p143-o1">
+          <input type="hidden" name="_wpnonce" value="d1da331d93">
         </div>
         <p>
-           <span class="wpcf7-form-control-wrap Name">
-             <input type="text" name="Name" value="" size="40" class="nameinput wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Name">
+          <span class="wpcf7-form-control-wrap Name">
+            <input type="text" name="Name" value="" size="40"
+              class="nameinput wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true"
+              aria-invalid="false" placeholder="Name">
           </span>
           <span class="wpcf7-form-control-wrap Email">
-            <input type="email" name="Email"  size="40" class="emailinput wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="Email">
+            <input type="email" name="Email" size="40"
+              class="emailinput wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email"
+              aria-required="true" aria-invalid="false" placeholder="Email">
           </span>
-  
+
           <span class="wpcf7-form-control-wrap Message">
-            <textarea name="Message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" placeholder="Message"></textarea>
+            <textarea name="Message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false"
+              placeholder="Message"></textarea>
           </span>
           <input type="submit" value="Send" class="wpcf7-form-control wpcf7-submit btn">
-          <img class="ajax-loader" src="http://www.jordancundiff.com/wp-content/plugins/contact-form-7/images/ajax-loader.gif" alt="Sending ..." style="visibility: hidden;">
-      </p>
-      <div class="wpcf7-response-output wpcf7-display-none">
-      </div>
-  </form>
-</div>
+          <img class="ajax-loader"
+            src="http://www.jordancundiff.com/wp-content/plugins/contact-form-7/images/ajax-loader.gif"
+            alt="Sending ..." style="visibility: hidden;">
+        </p>
+        <div class="wpcf7-response-output wpcf7-display-none">
+        </div>
+      </form>
+    </div>
   </section>
 </body>
 
