@@ -31,6 +31,12 @@ h2 {
     font-size: xx-large;
 }
 
+.sectionTitle {
+    font-size: 50px;
+    text-align: center;
+    padding-top: 10px;
+}
+
 /* Header */
 header {
     min-height: 100vh;
@@ -60,14 +66,13 @@ header {
 .navLink:hover {
     background-color: black;
     border-radius: 10px;
+    cursor: default;
 }
 
 /* Skills Section */
 #skillsSection {
     text-align: center;
     background-color: white;
-    /* background-attachment: fixed; */
-    /* background-image: url("../../Assets/skillsBackground.jpeg"); */
 }
 
 .skills {
@@ -86,6 +91,10 @@ header {
 .project {
     display: grid;
     gap: 50px;
+}
+
+#projectsTitle {
+    color: white;
 }
 
 /* Hover Effects */
@@ -142,7 +151,7 @@ header {
         background: white;
         margin: 100px 25px;
         border-radius: 25px;
-        box-shadow: 5px 5px 50px 5px rgb(49, 49, 49);
+        box-shadow: 5px 5px 50px 10px rgb(49, 49, 49);
     }
 
     .oddProject {
